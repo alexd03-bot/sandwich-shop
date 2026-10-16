@@ -14,6 +14,7 @@ public class ShopTwo {
         String size;
         double Price;
         int age;
+        String loaded;
 
         System.out.println("What size sandwich would you like? Regular or Large: ");
         size = myScanner.nextLine();
@@ -31,6 +32,14 @@ public class ShopTwo {
             Price = Price - (Price * .2);
 
         }
+        myScanner.nextLine();
+        System.out.println("Would you like your sandwich loaded? (yes/no): ");
+        loaded = myScanner.nextLine();
+        if (loaded.equals("yes")) {
+             Price = Price + 1;
+        }
+
+
         System.out.printf("Your total is %.2f", Price);
 
 
