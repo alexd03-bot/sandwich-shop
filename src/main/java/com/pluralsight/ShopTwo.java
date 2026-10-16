@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ShopTwo {
 
-    //Exercise 1
+    //Exercise 2
 
     public static void main(String[] args) {
 
